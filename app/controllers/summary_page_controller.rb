@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# SummaryPageController
 class SummaryPageController < ApplicationController
   def show
     @highest_revenue_all_time = HighestRevenueAllTime.cached_single_row

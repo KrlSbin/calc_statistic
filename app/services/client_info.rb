@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# ClientInfo
 class ClientInfo < ClientBase
   private
 

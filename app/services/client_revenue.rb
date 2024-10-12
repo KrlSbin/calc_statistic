@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# ClientRevenue
 class ClientRevenue < ClientBase
   private
 

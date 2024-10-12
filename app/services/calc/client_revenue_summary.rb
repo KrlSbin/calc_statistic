@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
+# Calc
 module Calc
+  # Calc::ClientRevenueSummary
   class ClientRevenueSummary
     class << self
       def execute
