@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'delayed_job_active_record'
 gem 'jbuilder', '~> 2.7'
 gem 'turbolinks', '~> 5'
+gem 'sprockets-rails', '3.5.2'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
