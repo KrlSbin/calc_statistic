@@ -12,8 +12,8 @@ gem 'rails', '7.2.1'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'delayed_job_active_record'
 gem 'jbuilder', '~> 2.7'
-gem 'turbolinks', '~> 5'
 gem 'sprockets-rails', '3.5.2'
+gem 'turbolinks', '~> 5'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -32,9 +32,9 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'brakeman', '6.2.1'
+gem 'bundler-audit', '0.9.2'
 gem 'daemons'
 gem 'rubocop', '1.66.1'
-gem 'bundler-audit', '0.9.2'
-gem 'brakeman', '6.2.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'whenever'
