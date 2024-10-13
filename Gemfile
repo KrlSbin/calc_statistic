@@ -33,6 +33,8 @@ group :test do
 end
 
 gem 'daemons'
-gem 'rubocop'
+gem 'rubocop', '1.66.1'
+gem 'bundler-audit', '0.9.2'
+gem 'brakeman', '6.2.1'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'whenever'

@@ -49,10 +49,6 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: 3.3.5
-      - name: Install bundler-audit + brakeman
-        run: |
-          gem install bundler-audit
-          gem install brakeman
       
       - name: Generate binstubs
         run: bundle binstubs bundler-audit brakeman rubocop
