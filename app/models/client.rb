@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Client
 class Client < ApplicationRecord
   self.table_name = 'clients'
 
@@ -18,7 +21,7 @@ class Client < ApplicationRecord
   end
 
   def self.select_top_revenue(limit)
-    select_revenue(limit: limit, order_by: 'DESC')
+    select_revenue(limit:, order_by: 'DESC')
   end
 
   def ready_attributes
@@ -26,8 +29,6 @@ class Client < ApplicationRecord
       .slice('full_name', 'revenue')
       .symbolize_keys
   end
-
-  private
 
   def self.select_revenue(limit:, order_by:)
     joins(:revenue)

@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# CreateDataStorageTable migration
 class CreateDataStorageTable < ActiveRecord::Migration[6.0]
   def change
     create_table :data_storage do |t|

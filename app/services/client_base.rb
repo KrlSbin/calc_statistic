@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'Net/Http'
 
+# ClientBase
 class ClientBase
   attr_reader :uri, :net, :data_string, :data_storage_id
 

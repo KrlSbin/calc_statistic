@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# CreateClientsTable
 class CreateClientsTable < ActiveRecord::Migration[6.0]
   def change
     create_table :clients, { primary_key: 'client_id' } do |t|

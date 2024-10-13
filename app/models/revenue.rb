@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Revenue
 class Revenue < ApplicationRecord
   self.table_name = 'revenues'
   belongs_to :client
@@ -9,7 +12,7 @@ class Revenue < ApplicationRecord
   end
 
   def self.total_revenue
-    select("SUM(revenue) as revenue").take
+    select('SUM(revenue) as revenue').take
   end
 
   def ready_attributes
