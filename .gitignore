@@ -30,3 +30,4 @@
 
 # Ignore congis
 /config/data_url.yml
+/.ruby-gemset

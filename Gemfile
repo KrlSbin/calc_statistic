@@ -26,12 +26,6 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-group :test do
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  gem 'webdrivers'
-end
-
 gem 'brakeman', '6.2.1'
 gem 'bundler-audit', '0.9.2'
 gem 'daemons'
