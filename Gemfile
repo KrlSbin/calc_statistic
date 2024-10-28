@@ -7,7 +7,7 @@ ruby '3.3.5'
 
 gem 'pg', '1.5.8'
 gem 'puma', '6.4.3'
-gem 'rails', '7.2.1'
+gem 'rails', '~> 7.2.1'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'delayed_job_active_record'
