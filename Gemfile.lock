@@ -94,7 +94,7 @@ GEM
     connection_pool (3.0.2)
     crass (1.0.6)
     daemons (1.4.1)
-    date (3.4.1)
+    date (3.5.1)
     delayed_job (4.1.12)
       activesupport (>= 3.0, < 8.0)
     delayed_job_active_record (4.1.10)
@@ -133,7 +133,7 @@ GEM
     mini_portile2 (2.8.9)
     minitest (5.27.0)
     msgpack (1.7.3)
-    net-imap (0.5.7)
+    net-imap (0.5.14)
       date
       net-protocol
     net-pop (0.1.2)
@@ -233,7 +233,7 @@ GEM
       sprockets (>= 3.0.0)
     stringio (3.1.1)
     thor (1.4.0)
-    timeout (0.4.3)
+    timeout (0.6.1)
     tsort (0.2.0)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
